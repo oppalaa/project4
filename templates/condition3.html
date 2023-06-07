@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+         {% if a > b %}
+                {% if a > c %}
+                  <h1>a is max</h1>
+                {% else %}
+                  <h1>c is max</h1>
+                {% endif %}
+         {% else %}
+                {% if b > c %}
+                    <h1>b is max</h1>
+                {% else %}
+                    <h1>c is max</h1>
+                {% endif %}
+         {% endif %}
+    </center>
+</body>
+</html>
